@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Index from './components/Lazy loading and Code Spliting/Index';
+import Amemo from './components/Memoization/Amemo';
+import Bcallback from './components/Memoization/Bcallback';
+import UseMap from './components/Use Keys in Lists/UseMap';
+import ChildB from './components/UseContext/ChildB';
+import ParentComponent from './components/UseContext/ParentComponent';
+import Virtualization from './components/Virtualization for Large lists/Virtualization';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Index/>  */} 
+      {/* <Amemo/> */}
+      {/* <Bcallback/> */}
+      {/* <ParentComponent/> */}
+      {/* <Debouncing/> */}
+      {/* <UseMap/> */}
+      {/* <Virtualization/> */}
     </div>
   );
 }
